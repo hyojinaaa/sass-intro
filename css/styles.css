@@ -1,0 +1,21 @@
+nav {
+  background-color: #333333;
+}
+nav img {
+  float: left;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  color: white;
+  text-decoration: none;
+  line-height: 50px;
+}
+nav:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/*# sourceMappingURL=styles.css.map */

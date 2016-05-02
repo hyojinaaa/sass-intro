@@ -1,0 +1,22 @@
+nav {
+	background-color: #333333;
+
+	img {
+		float: left;
+	}
+
+	li {
+		display: inline-block;
+		a {
+			color: white;
+			text-decoration: none;
+			line-height: 50px;
+		}
+	}
+
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
