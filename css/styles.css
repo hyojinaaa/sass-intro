@@ -1,5 +1,18 @@
 nav {
-  background-color: #333333;
+  background-color: #e74c3c;
+}
+@media all and (min-width: 600px) {
+  nav {
+    background-color: #f1c40f;
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+@media all and (min-width: 1366px) {
+  nav {
+    background-color: #1abc9c;
+    width: 1300px;
+  }
 }
 nav img {
   float: left;
@@ -16,6 +29,87 @@ nav:after {
   content: '';
   display: block;
   clear: both;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  float: left;
+  margin: 10px;
+}
+
+#box1 {
+  background-color: #e74c3c;
+}
+
+#box2 {
+  background-color: #ed7669;
+}
+
+#box3 {
+  background-color: #f29f97;
+}
+
+#box4 {
+  background-color: #f8c9c4;
+}
+
+#box5 {
+  background-color: #d62c1a;
+}
+
+#box6 {
+  background-color: #a82315;
+}
+
+#box7 {
+  background-color: #7b190f;
+}
+
+#box8 {
+  background-color: #4d100a;
+}
+
+#box9 {
+  background-color: #73269d;
+}
+
+#box10 {
+  background-color: rgba(231, 76, 60, 0.5);
+  position: relative;
+  right: 80px;
+}
+
+/* CSS comment */
+.success, .warning {
+  background-color: red;
+  clear: both;
+  display: block;
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+.success:after, .warning:after {
+  content: 'X';
+  position: absolute;
+  right: 10px;
+}
+
+.success {
+  background-color: rgba(26, 188, 156, 0.7);
+  border: 1px solid rgba(14, 98, 82, 0.7);
+}
+
+.warning {
+  background-color: rgba(230, 126, 34, 0.7);
+  border: 1px solid rgba(146, 77, 16, 0.7);
 }
 
 /*# sourceMappingURL=styles.css.map */
